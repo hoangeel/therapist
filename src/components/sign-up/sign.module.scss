@@ -1,0 +1,224 @@
+.container{
+  padding: 0px 100px;
+}
+.signupBg{
+  background: url("../../assets/imgs/BgSign.png") no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 91px 0px 87px;
+  .card{
+    padding: 39px 36px 62px 34px;
+    width: 520px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+    border: none;
+    margin: 0px auto;
+    h1{
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 56px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 0px;
+    }
+    .text{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 56px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+    }
+    .group{
+      label{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-bottom: 9px;
+      }
+      input{
+        height: 50px;
+        background: #FFFFFF;
+        border: 0.5px solid #DBDBDB;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #707070;
+        padding: 15px 0px 15px 12px;
+        margin-bottom: 23px;
+      }
+    }
+    .check{
+      margin: -2px 0px 24px;
+      input{
+        width: 16px;
+        height: 16px;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      label{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;        
+      }
+    }
+    button{
+      padding: 0px;
+      height: 50px;
+      background: #EA5A47;
+      border: #EA5A47 1px solid;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      &:hover{
+        cursor: pointer;
+        border: #EA5A47 1px solid;
+        background: #FFFFFF;
+        color: #EA5A47;
+      }
+    }
+    h4{
+      margin: -23px 0px 23px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 56px;
+      text-align: center;
+      color: #FFFFFF;
+      span{
+        &:hover{
+          cursor: pointer;
+          color: #EA5A47;
+        }
+      }
+    }
+  }
+}
+@media(max-width:992px){
+  .container{
+    padding: 0px 30px;
+  }
+  .signupBg{
+    padding: 91px 0px 87px;
+    .card{
+      padding: 39px 36px 62px 34px;
+      width: 520px;
+      h1{
+        font-size: 40px;
+        line-height: 56px;
+      }
+      .text{
+        font-size: 20px;
+        line-height: 56px;
+        margin-bottom: 24px;
+      }
+      .group{
+        label{
+          font-size: 16px;
+          line-height: 20px;
+          margin-bottom: 9px;
+        }
+        input{
+          height: 50px;
+          font-size: 16px;
+          line-height: 20px;
+          padding: 15px 0px 15px 12px;
+          margin-bottom: 23px;
+        }
+      }
+      .check{
+        margin: -2px 0px 24px;
+        input{
+          width: 16px;
+          height: 16px;
+        }
+        label{
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      button{
+        margin-bottom: 23px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      h5{
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+@media(max-width:767px){
+  .container{
+    padding: 0px 10px;
+  }
+}
+@media(max-width:576px){
+  .signupBg{
+    padding: 30px 0px;
+    .card{
+      padding:20px 15px ;
+      width: 280px;
+      border-radius: 20px;
+      h1{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+      .text{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      .group{
+        label{
+          font-size: 12px;
+          line-height: 20px;
+          margin-bottom: 5px;
+        }
+        input{
+          height: 30px;
+          font-size: 12px;
+          line-height: 20px;
+          padding: 15px 0px 15px 12px;
+          margin-bottom: 10px;
+        }
+      }
+      .check{
+        margin: 0px 0px 24px;
+        input{
+          margin-top: 5px;
+          width: 16px;
+          height: 16px;
+        }
+        label{
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      button{
+        margin-bottom: 10px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 24px;
+      }
+      h4{
+        margin: 0px 0px 10px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

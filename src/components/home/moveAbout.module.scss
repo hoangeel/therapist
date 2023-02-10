@@ -1,0 +1,239 @@
+.container{
+  padding: 0px 100px;
+}
+.moveAboutBg{
+  background: #F8F8F8;
+  padding: 60px 0px 152px;
+  .moveAbout{
+    .title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 56px;
+      text-align: center;
+      color: #000000;   
+      margin-left: 50px;
+      margin-bottom: 62px;   
+      span{
+        color: #D22F27;
+        img{
+          margin-left: -55px;
+          width: 107px;
+          height: 107px;
+        }
+      }
+    }
+    .content{
+      align-items: center;
+      .col{
+        margin: 0px;
+        padding: 0px;
+      }
+      .img{
+        height: 330px;
+        margin-right: 38px;
+        .imgBg{
+          width: 447px;
+          height: 330px;
+          background: #1E1E1E;
+          border-radius: 50px;
+          position: relative;
+          left: 37px;
+          
+        }
+        img{
+          position:relative;
+          top: -290px;
+          width: 521px;
+          height: 295px;
+        }
+      }
+      .text{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 50px;
+        color: #000000;
+        max-width: 565px;
+        span{
+          color: #D22F27;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+@media(max-width:1400px){
+  .moveAboutBg{
+    .moveAbout{
+      .content{
+        .img{
+          height: 220px;
+          margin-right: 20px;
+          .imgBg{
+            width: 80%;
+            height: 220px;
+            left: 20px;
+            
+          }
+          img{
+            top: -190px;
+            width: 90%;
+            height: auto;
+          }
+        }
+        .text{
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 35px;
+          max-width: 565px;
+        }
+      }
+    }
+  }
+}
+@media(max-width:992px){
+  .container{
+    padding: 0px 30px;
+  }
+  .moveAboutBg{
+    padding: 30px 0px 30px;
+    .moveAbout{
+      .title{
+        font-size: 30px;
+        line-height: 40px;  
+        margin-left: 40px;
+        margin-bottom: 30px;   
+        span{
+          img{
+            margin-left: -45px;
+            width: 80px;
+            height:80px;
+          }
+        }
+      }
+      .content{
+        text-align: center;
+        .img{
+          height: 200px;
+          margin-right: 0px;
+          .imgBg{
+            width: 43%;
+            height: 200px;
+            left: 28%;
+            border-radius: 30px;
+          }
+          img{
+            top: -190px;
+            width: 50%;
+            height: auto;
+          }
+        }
+        .text{
+          margin: 30px auto 0px ;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 35px;
+          max-width: 565px;
+        }
+      }
+    }
+  }
+}
+@media(max-width:767px){
+  .container{
+    padding: 0px 30px;
+  }
+  .moveAboutBg{
+    padding: 30px 0px 30px;
+    .moveAbout{
+      .title{
+        font-size: 20px;
+        line-height: 40px;  
+        margin-left: 20px;
+        margin-bottom: 10px;   
+        span{
+          img{
+            margin-left: -30px;
+            width: 50px;
+            height:50px;
+          }
+        }
+      }
+      .content{
+        text-align: center;
+        .img{
+          height: 160px;
+          margin-right: 0px;
+          .imgBg{
+            width: 43%;
+            height: 160px;
+            left: 28%;
+            border-radius: 30px;
+          }
+          img{
+            top: -140px;
+            width: 50%;
+            height: auto;
+          }
+        }
+        .text{
+          margin: 20px auto 0px ;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          max-width: 565px;
+        }
+      }
+    }
+  }
+}
+@media(max-width:576px){
+  .container{
+    padding: 0px 10px;
+  }
+  .moveAboutBg{
+    padding: 30px 0px 30px;
+    .moveAbout{
+      .title{
+        font-size: 16px;
+        line-height: 40px;  
+        margin-left: 20px;
+        margin-bottom: 10px;   
+        span{
+          img{
+            margin-left: -20px;
+            margin-top: 3px;
+            width: 30px;
+            height:30px;
+          }
+        }
+      }
+      .content{
+        text-align: center;
+        .img{
+          height: 110px;
+          margin-right: 0px;
+          .imgBg{
+            width: 43%;
+            height: 110px;
+            left: 28%;
+            border-radius: 30px;
+          }
+          img{
+            top: -90px;
+            width: 161px;
+            height: auto;
+          }
+        }
+        .text{
+          margin: 20px auto 0px ;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}

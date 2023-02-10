@@ -1,0 +1,333 @@
+
+.startedBg{
+  background: url("../../assets/imgs/Rectangle\ 3.png") no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 79px 0px 108px;
+  .card{
+    border: none;
+    background: none;
+    max-width: 613px;
+    margin: 0px auto;
+    h1{
+      margin-bottom: 0px;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 56px;
+      text-align: center;
+      color: #FFFFFF;    
+    }
+    h2{
+      margin-bottom: 0px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 56px;
+      text-align: center;
+      color: #FFFFFF;    
+    }
+    .new{
+      margin: 35px 0px 18px;
+      padding: 0px;
+      height: 50px;
+      border: #EA5A47 1px solid;
+      background: #EA5A47;
+      font-weight: 600;
+      font-size: 16px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .group{
+      margin-bottom: 18px;
+      height: 38px;
+      border-radius: 0px;
+      input{
+        background: #FFFFFF;
+        font-weight: 400;
+        font-size: 16px;
+        align-items: center;
+        color: #1E1E1E;
+        border-radius: 0px;
+      }
+      .name{
+        max-width: 177px;
+        margin-right: 6px;
+        border-radius: 0px;
+      }
+      .date{
+        margin-right: 6px;
+        max-width: 116px;
+        border-radius: 0px;
+      }
+      button{
+        margin-right: 0px;
+        padding: 0px;
+        width: 90px;
+        background: #D22F27;
+        border: #D22F27 1px solid;
+        font-weight: 400;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 6px;
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+      .delete{
+        background: #1E1E1E;
+        width: 90px;
+        border: #1E1E1E 1px solid;
+        margin: 0px;
+        border-radius: 0px;
+      }
+    }
+  }
+}
+.modal{
+  margin-left: -68px;
+  margin-top: 173px;
+  text-align: center;
+  div{
+    border-radius: 40px;
+    margin: auto;
+  }
+  .modalBody{
+    padding: 36px 38px 175px;
+    background: #FFFFFF;
+    .title{
+      width: 100%;
+      img{
+        display: block;
+        margin-left: auto;
+        &:hover{
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+    }  
+    .groupLogo{
+      margin: 90px 0px 0px 147px;
+      width: 87px;
+      .logo{
+        margin-bottom: 14px;
+        img{
+          width: 87px;
+          height: 87px;
+        }
+      }
+      .textLogo{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #D22F27;        
+        span{
+          color: #5C9E31;
+        }
+      }
+    }
+    p{
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 56px;
+      text-align: center;
+      color: #1E1E1E; 
+      margin-bottom: 54px;     
+    }
+    button{
+      margin: 0px 33px;
+      padding: 0px;
+      font-weight: 700;
+      font-size: 16px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      width: 494px;
+      height: 50px;
+      background: #D22F27;
+      border:#D22F27 1px solid;
+      &:hover{
+        background: none;
+        color: #D22F27;
+      }
+    }
+  }
+ }
+
+ @media(max-width: 1300px){
+  .modal{
+    margin-top: 10px;
+    overflow: hidden;
+  }
+ }
+@media(max-width: 767px){
+  .startedBg{
+    padding: 30px 0px ;
+    .card{
+      max-width: 500px;
+      h1{
+        font-size: 20px;
+        line-height: 30px;  
+      }
+      h2{
+        font-size: 16px;
+        line-height: 40px;    
+      }
+      .new{
+        margin: 20px 0px;
+        height: 40px;
+        font-size: 14px;
+      }
+      .group{
+        margin-bottom: 18px;
+        height: 38px;
+        input{
+          font-size: 14px;
+        }
+        .name{
+          max-width: 150px;
+          margin-right: 6px;
+        }
+        .date{
+          margin-right: 6px;
+          max-width: 85px;
+        }
+        button{
+          width: 80px;
+          font-size: 14px;
+          margin-right: 6px;
+        }
+        .delete{
+          width: 80px;
+        }
+      }
+    }
+  }
+  .modal{
+    margin-left: 0px;
+    margin-top: 50px;
+    div{
+      border-radius: 20px;
+    }
+    .modalBody{
+      padding: 20px 20px 100px 20px; 
+      .groupLogo{
+        margin: 50px 0px 0px 80px;
+        width: 60px;
+        .logo{
+          margin-bottom: 14px;
+          img{
+            width: 60px;
+            height: 60px;
+          }
+        }
+        .textLogo{
+          font-size: 26px;
+          line-height: 30px;
+        }
+      }
+      p{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;     
+      }
+      button{
+        margin: 0px 30px;
+        font-size: 16px;
+        width: 350px;
+        height: 50px;
+      }
+    }
+   }
+}
+@media(max-width: 590px){
+  .startedBg{
+    padding: 30px 0px ;
+    .card{
+      max-width: 300px;
+      h1{
+        font-size: 16px;
+        line-height: 20px;  
+      }
+      h2{
+        font-size: 12px;
+        line-height: 30px;    
+      }
+      .new{
+        margin: 10px 0px 20px;
+        height: 30px;
+        font-size: 12px;
+      }
+      .group{
+        margin-bottom: 18px;
+        height: 30px;
+        input{
+          font-size: 12px;
+          padding: 5px;
+        }
+        .name{
+          max-width: 90px;
+          margin-right: 4px;
+        }
+        .date{
+          margin-right: 4px;
+          max-width: 40px;
+        }
+        .duration{
+          max-width: 65px;
+        }
+        button{
+          width: 40px;
+          font-size: 12px;
+          margin-right: 4px;
+        }
+        .delete{
+          width: 47px;
+        }
+      }
+    }
+  }
+  .modal{
+    margin-left: 0px;
+    margin-top: 100px;
+    .modalBody{
+      padding: 20px 10px 60px ; 
+      .title{
+        width: 100%;
+        img{
+          width: 20px;
+          height: auto;
+        }
+      } 
+      .groupLogo{
+        margin: 30px 0px -10px 55px;
+        width: 60px;
+        .logo{
+          margin-bottom: 14px;
+          img{
+            width: 40px;
+            height: 40px;
+          }
+        }
+        .textLogo{
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+      p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;     
+      }
+      button{
+        margin: 0px 10px;
+        font-size: 14px;
+        width: 250px;
+        height: 40px;
+      }
+    }
+   }
+}
